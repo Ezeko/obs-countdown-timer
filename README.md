@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/ezeko/obs-countdown-timer)](https://github.com/ezeko/obs-countdown-timer/blob/main/LICENSE)
 
 
-![Timer Display](/screenshots/Screenshot 2025-11-09 at 16.52.20.png)
+![Timer Display](screenshots/Screenshot%202025-11-09%20at%2016.52.20.png)
 
 A professional OBS timer plugin by EzekoConcept - perfect for streamers, content creators, and presenters.
 
