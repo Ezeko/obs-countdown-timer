@@ -1,10 +1,10 @@
 # EzekoConcept Timer
 
-[![GitHub stars](https://img.shields.io/github/stars/ezekoconcept/obs-timer?style=social)](https://github.com/ezekoconcept/obs-timer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/ezekoconcept/obs-timer)](https://github.com/ezekoconcept/obs-timer/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ezeko/obs-timer?style=social)](https://github.com/ezekot/obs-timer/stargazers)
+[![GitHub license](https://img.shields.io/github/license/ezeko/obs-timer)](https://github.com/ezeko/obs-timer/blob/main/LICENSE)
 
 
-![Timer Display](screenshots/timer-display-dark.png)
+![Timer Display](/screenshots/Screenshot 2025-11-09 at 16.52.20.png)
 
 A professional OBS timer plugin by EzekoConcept - perfect for streamers, content creators, and presenters.
 
