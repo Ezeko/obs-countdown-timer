@@ -50,26 +50,12 @@ Alternative: You can also open both pages directly in your browser:
 
 ## Screenshots
 
-### Timer Display
-![Timer Display Light Theme](screenshots/timer-display-light.png)
-*Timer Display in Light Theme*
+### Examples
+![Timer Screenshot 1](screenshots/Screenshot%202025-11-09%20at%2016.52.20.png)
+*Timer display / settings example (screenshot 1)*
 
-![Timer Display Dark Theme](screenshots/timer-display-dark.png)
-*Timer Display in Dark Theme*
-
-### Settings Panel
-![Settings Panel Light Theme](screenshots/settings-light.png)
-*Settings Panel in Light Theme*
-
-![Settings Panel Dark Theme](screenshots/settings-dark.png)
-*Settings Panel in Dark Theme*
-
-### OBS Integration
-![OBS Browser Source Setup](screenshots/obs-browser-source.png)
-*Adding Timer as OBS Browser Source*
-
-![OBS Custom Dock Setup](screenshots/obs-custom-dock.png)
-*Adding Settings Panel as OBS Custom Dock*
+![Timer Screenshot 2](screenshots/Screenshot%202025-11-09%20at%2016.55.18.png)
+*Timer display / settings example (screenshot 2)*
 
 How to use the controls
 
@@ -103,9 +89,7 @@ Troubleshooting
 
 If you find this timer useful, consider supporting its development:
 
-- 💖 [Sponsor on GitHub](https://github.com/sponsors/ezekoconcept)
-- ☕ [Buy me a coffee](https://www.buymeacoffee.com/ezekoconcept)
-- 💝 [Support via PayPal](https://paypal.me/ezekoconcept)
+- 💖 [Sponsor on GitHub](https://github.com/sponsors/ezeko)
 
 ### Premium Features (Coming Soon)
 
@@ -148,8 +132,3 @@ This is a small local utility. No external dependencies. Use and adapt freely.
 
 ---
 
-If you want, I can also:
-- Add a small badge in the settings UI that shows whether the settings preview is "locked" or "live".
-- Create a bundled `serve.sh` script that starts a Python static server and prints the two URLs for OBS.
-
-Which would you like next?
