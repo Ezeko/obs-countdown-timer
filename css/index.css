@@ -1,0 +1,61 @@
+/* index.css
+   Styles for the large index timer display.
+*/
+:root {
+  /* Shared theme variables - keep these in sync with settings.css */
+  --bg: #ffffff;
+  --fg: #111111; /* primary foreground (timer text) - dark on light */
+  --timer-overtime: #ff1f1f; /* stronger danger red for overtime */
+}
+
+/* Page layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  height: 100vh;
+  overflow: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* The timer itself - centered and responsive */
+.timer {
+  font-size: 60vw; /* will be overridden by JS to a vw based value from settings */
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 0.05em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  /* use --fg so text is black on light and white on dark */
+  color: var(--fg);
+  transition: color 0.3s, font-size 0.3s;
+}
+
+/* Overtime state uses a strong danger color */
+.timer.overtime { color: var(--timer-overtime); }
+
+/* Blink animation - run once when overtime first occurs */
+.timer.blink {
+  animation: blink-once 0.9s ease-in-out;
+}
+@keyframes blink-once {
+  0% { opacity: 1; transform: scale(1); }
+  25% { opacity: 0.2; transform: scale(1.02); }
+  50% { opacity: 1; transform: scale(1); }
+  75% { opacity: 0.2; transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Dark mode helper - kept for compatibility but settings no longer control theme */
+body.dark {
+  --bg: #181a1b;
+  --fg: #eee;
+  --timer-normal: #eee;
+  --timer-overtime: #ff4c4c;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@ezekoconcept/obs-timer",
+  "version": "1.0.0",
+  "description": "Professional OBS Timer Plugin by EzekoConcept",
+  "author": "EzekoConcept",
+  "license": "MIT",
+  "homepage": "https://github.com/ezekoconcept/obs-timer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezekoconcept/obs-timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ezekoconcept/obs-timer/issues"
+  },
+  "keywords": [
+    "obs",
+    "timer",
+    "streaming",
+    "countdown",
+    "obs-plugin",
+    "browser-source"
+  ]
+}
