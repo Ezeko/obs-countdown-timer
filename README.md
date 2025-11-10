@@ -1,7 +1,7 @@
 # EzekoConcept Timer
 
-[![GitHub stars](https://img.shields.io/github/stars/ezeko/obs-countdown-timer?style=social)](https://github.com/ezeko/obs-countdown-timer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/ezeko/obs-countdown-timer)](https://github.com/ezeko/obs-countdown-timer/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ezeko/obs-countdown-timer-plugin?style=social)](https://github.com/ezeko/obs-countdown-timer-plugin/stargazers)
+[![GitHub license](https://img.shields.io/github/license/ezeko/obs-countdown-timer-plugin)](https://github.com/ezeko/obs-countdown-timer-plugin/blob/main/LICENSE)
 
 
 ![Timer Display](screenshots/Screenshot%202025-11-09%20at%2016.52.20.png)
